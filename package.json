@@ -1,0 +1,16 @@
+{
+  "name": "notion-halo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:halo": "elog sync -e .elog.env",
+    "dev:local": "elog sync -e .elog.env -c elog.config.local.js -a elog.cache.local.json",
+    "sync:halo": "elog sync",
+    "sync:local": "elog sync -c elog.config.local.js -a elog.cache.local.json",
+    "elog:init": "elog init",
+    "elog:clean": "elog clean"
+  },
+  "dependencies": {
+    "@elog/cli": "^0.13.2"
+  }
+}
