@@ -11,6 +11,6 @@
     "elog:clean": "elog clean"
   },
   "dependencies": {
-    "@elog/cli": "^0.13.2"
+    "@elog/cli": "^0.14.0"
   }
 }
